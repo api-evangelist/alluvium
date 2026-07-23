@@ -1,7 +1,28 @@
 aid: alluvium
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alluvium.png
 name: Alluvium
-description: Alluvium is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alluvium was an industrial machine-learning / data-science startup backed by Bloomberg Beta and
+  surfaced in the API Evangelist network as a portfolio-lead stub. Enrichment on 2026-07-17 found no
+  live API surface. Its domain alluvium.io now redirects to a GoDaddy for-sale parking page (dan.com
+  nameservers), indicating the company is defunct or acquired. No developer portal, documentation,
+  OpenAPI, or package registry presence was found; alluvium.com is an unrelated active
+  environmental-consulting firm and alluvium.ai is a parked domain. No scoring artifacts could be
+  produced without fabrication.
+x-status: defunct
+x-enrichment-checked: '2026-07-17'
+x-enrichment-result: no-live-surface; alluvium.io parked/for-sale; no APIs or docs found
 url: https://raw.githubusercontent.com/api-evangelist/alluvium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -20,3 +41,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
