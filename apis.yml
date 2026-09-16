@@ -23,14 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alluvium.png
 name: Alluvium
-description: >-
-  Alluvium was an industrial machine-learning / data-science startup backed by Bloomberg Beta and
-  surfaced in the API Evangelist network as a portfolio-lead stub. Enrichment on 2026-07-17 found no
-  live API surface. Its domain alluvium.io now redirects to a GoDaddy for-sale parking page (dan.com
-  nameservers), indicating the company is defunct or acquired. No developer portal, documentation,
-  OpenAPI, or package registry presence was found; alluvium.com is an unrelated active
-  environmental-consulting firm and alluvium.ai is a parked domain. No scoring artifacts could be
-  produced without fabrication.
+description: Alluvium was an industrial machine-learning / data-science startup backed by Bloomberg Beta
+  and surfaced in the API Evangelist network as a portfolio-lead stub. Enrichment on 2026-07-17 found
+  no live API surface. Its domain alluvium.io now redirects to a GoDaddy for-sale parking page (dan.com
+  nameservers), indicating the company is defunct or acquired. No developer portal, documentation, OpenAPI,
+  or package registry presence was found; alluvium.com is an unrelated active environmental-consulting
+  firm and alluvium.ai is a parked domain. No scoring artifacts could be produced without fabrication.
 x-status: defunct
 x-enrichment-checked: '2026-07-17'
 x-enrichment-result: no-live-surface; alluvium.io parked/for-sale; no APIs or docs found
@@ -43,9 +41,10 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
